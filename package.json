@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "tsc",
     "day1": "ts-node src/day1/day1.ts",
     "day2": "ts-node src/day2/day2.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint src"
   },
-  "keywords": [],
+  "keywords": [
+    "typescript",
+    "adventofcode2022",
+    "javascript",
+    "functionalprogramming"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -19,6 +23,9 @@
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
     "ts-node": "^10.9.1"
   }
 }
